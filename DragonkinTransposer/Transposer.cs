@@ -75,6 +75,26 @@ namespace DragonkinTransposer
             {
                 return Resources.AEIOU;
             }
+            else if (character == '.')
+            {
+                return Resources.fullstop;
+            }
+            else if (character == '-')
+            {
+                return Resources.hyphen;
+            }
+            else if (character == '\'')
+            {
+                return Resources.quotation_mark;
+            }
+            else if (character == '!')
+            {
+                return Resources.exclamation_mark;
+            }
+            else if (character == '?')
+            {
+                return Resources.question_mark;
+            }
 
             return Resources.space;
         }

@@ -83,9 +83,39 @@ namespace DragonkinTransposer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap exclamation_mark {
+            get {
+                object obj = ResourceManager.GetObject("exclamation_mark", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap FGH {
             get {
                 object obj = ResourceManager.GetObject("FGH", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fullstop {
+            get {
+                object obj = ResourceManager.GetObject("fullstop", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap hyphen {
+            get {
+                object obj = ResourceManager.GetObject("hyphen", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -116,6 +146,26 @@ namespace DragonkinTransposer.Properties {
         internal static System.Drawing.Bitmap QRS {
             get {
                 object obj = ResourceManager.GetObject("QRS", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap question_mark {
+            get {
+                object obj = ResourceManager.GetObject("question_mark", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap quotation_mark {
+            get {
+                object obj = ResourceManager.GetObject("quotation_mark", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
