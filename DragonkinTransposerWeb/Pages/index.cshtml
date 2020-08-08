@@ -1,0 +1,42 @@
+﻿@page
+@model DragonkinTransposerWeb.Pages.indexModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Dragonkin Transposer</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: gainsboro;
+        }
+
+        form {
+            display: inline-block;
+        }
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top:30px;
+            max-width: 99%;
+        }
+        input {
+            margin:10px;
+        }
+    </style>
+</head>
+<body>
+    <form method="post">
+        <input type="text" name="input" value="@Model.Input">
+        <br />
+        <input type="submit" value="Transpose">
+    </form>
+    <img src="@String.Format("data:image/png;base64,{0}", Convert.ToBase64String(Model.Image))" class="image"/>
+</body>
+</html>

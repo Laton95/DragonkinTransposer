@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "DragonkinTransposerConsole": {
+      "commandName": "Project",
+      "commandLineArgs": "this is a test"
+    }
+  }
+}
